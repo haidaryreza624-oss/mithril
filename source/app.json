@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Mithril",
+    "slug": "client",
+    "version": "1.2.1",
+    "orientation": "portrait",
+    "icon": "./assets/final-icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/final-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.rezaluna.app"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFFFFF",
+          "image": "./assets/splashscreen_logo.png"
+        }
+      ],
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "88051148-ed15-4a48-8ee3-6e3f427bca16"
+      }
+    }
+  }
+}
