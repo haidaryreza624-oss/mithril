@@ -1,6 +1,6 @@
 
 #  High‑Level Architecture
-![This is an alt text.](/assets/ab8580ce-c5b1-4089-93ff-199b597a1442.png "This is a sample image.")
+![This is an alt text.](/assets/ab8580ce-c5b1-4089-93ff-199b597a1442.png "High Arcture photo")
 #  Overview
 This React Native mobile application allows students to log in to the HEMIS (Higher Education Management Information System) portal, fetch their academic data (profile, semester scores, final scores, timetable), and display it in a clean, local dashboard.
 
