@@ -5,13 +5,13 @@
 This React Native mobile application allows students to log in to the HEMIS (Higher Education Management Information System) portal, fetch their academic data (profile, semester scores, final scores, timetable), and display it in a clean, local dashboard.
 
 # POINT
-the project original design uses a fastapi backend - its a private repo - this `sub_branch`is public available
+The project original design uses a fastapi backend - its a private repo - this `sub_branch`is public available
 
 Key difference from original design:
 The app does not use an external FastAPI backend. Instead, it directly scrapes the HEMIS website using a custom HTTP client with cookie‑based session management. All parsers are implemented in TypeScript using node-html-parser.
 
 
-#   Setting Up:
+#   Setting Up
 Make sure you have `node.js` installed 
 ```bash
     git clone https://github.com/haidaryreza624-oss/mithril.git
